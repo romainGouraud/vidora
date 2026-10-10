@@ -1,0 +1,38 @@
+name: Triage
+on:
+  issues:
+    types: [opened]
+permissions:
+  issues: write
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const text = `${issue.title}\n${issue.body || ''}`.toLowerCase();
+            const { owner, repo } = context.repo;
+            const number = issue.number;
+            // Out of scope by design: YouTube (store policy) and DRM services.
+            const youtube = /\byoutube\b|youtu\.be/.test(text);
+            const drm = /\b(netflix|disney\+?|prime video|primevideo|hbo ?max|max\.com|hulu|crunchyroll|widevine|playready|fairplay)\b/.test(text);
+            // Private links with tokens must not stay public.
+            const secret = /[?&](token|signature|sig|policy|key-pair-id|x-amz-signature|hdnts|hdnea|auth)=/i.test(`${issue.title}\n${issue.body || ''}`);
+            if (youtube || drm) {
+              const label = youtube ? 'youtube-not-supported' : 'drm-not-supported';
+              const why = youtube
+                ? 'YouTube is excluded by Chrome Web Store policy, so Vidora cannot support it.'
+                : 'This service protects its videos with DRM. Vidora never bypasses copy protection, by design and by law.';
+              await github.rest.issues.addLabels({ owner, repo, issue_number: number, labels: [label] });
+              await github.rest.issues.createComment({ owner, repo, issue_number: number, body:
+                `Thanks for the report. ${why}\n\nIf your video is on another site, or this detection is wrong, reply here and the issue will be reopened. Questions are welcome in [Q&A](https://github.com/${owner}/${repo}/discussions/categories/q-a).` });
+              await github.rest.issues.update({ owner, repo, issue_number: number, state: 'closed', state_reason: 'not_planned' });
+              return;
+            }
+            const lines = ['Thanks for the report! It will be reproduced and triaged. Meanwhile:'];
+            lines.push('- Make sure you are on the latest Vidora version (Settings, About section).');
+            lines.push('- Click **Report a problem** in Vidora as well: the private report carries the technical details that should not be public.');
+            if (secret) lines.push('- **Your message seems to contain a private link with a token.** Please edit it and keep only the domain: anyone can read this page.');
+            await github.rest.issues.createComment({ owner, repo, issue_number: number, body: lines.join('\n') });

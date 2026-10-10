@@ -57,6 +57,15 @@ The honest compatibility list, with the reason when a site does not work, is on 
   <img src="assets/vidora-quality-selection-mp4-hls.webp" width="760" alt="Choosing the quality of an HLS stream before saving it as MP4 with Vidora">
 </p>
 
+## Frequent questions
+
+- [Vidora does not detect any video on the page](https://github.com/romainGouraud/vidora/discussions/6)
+- [My downloaded video has no sound](https://github.com/romainGouraud/vidora/discussions/7)
+- [A download fails or stops before the end](https://github.com/romainGouraud/vidora/discussions/8)
+- [How do I save a whole course on Skool?](https://github.com/romainGouraud/vidora/discussions/9)
+- [How do I record a live stream?](https://github.com/romainGouraud/vidora/discussions/10)
+- [Does Vidora work on Edge, Brave, Opera or Firefox?](https://github.com/romainGouraud/vidora/discussions/11)
+
 ## What Vidora will never do
 
 - **YouTube**: not supported, by Chrome Web Store policy.
