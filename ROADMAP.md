@@ -2,15 +2,15 @@
 
 What we are working on, what comes next, and what we are exploring. The order follows your votes: add a 👍 to [Ideas](https://github.com/romainGouraud/vidora/discussions/categories/ideas) and to [site requests](https://github.com/romainGouraud/vidora/issues?q=is%3Aopen+label%3Asite-request+sort%3Areactions-%2B1-desc).
 
-*Last updated: October 10, 2026.*
+*Last updated: October 11, 2026.*
 
 ## In progress
 
 - **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
+- **Microsoft Edge Add-ons listing**: submitted, waiting for Microsoft's review.
 
 ## Next
 
-- **Edge Add-ons listing**, so Microsoft Edge users can install Vidora from their own store (it already works from the Chrome Web Store).
 - **More course platforms**, starting with Teachable, Kajabi and Patreon, with the same "whole course" card as on Skool where the platform allows it.
 - **Online tools in more languages.**
 
@@ -22,6 +22,8 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.76 (October 11, 2026)**: long downloads that survive interruptions and slow servers; quality lists loading on more sites; placeholder files no longer saved as a success; better course platform support; "Retry save" when the disk is full; capture while playing from the button on the video.
 
 **1.0.75 (October 10, 2026)**: live streams recorded until you press Stop; capture while playing; whole Skool courses; Bilibili; MKV instead of raw .ts; MP3 audio; subtitles as SRT; file name templates; preview and copy (link, ffmpeg, yt-dlp); Brave "disk full" fix.
 
