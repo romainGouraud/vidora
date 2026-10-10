@@ -7,7 +7,7 @@ What we are working on, what comes next, and what we are exploring. The order fo
 ## In progress
 
 - **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
-- **Microsoft Edge Add-ons listing**: submitted, waiting for Microsoft's review.
+- **Microsoft Edge Add-ons listing**: ready, published once Microsoft has verified the developer account.
 
 ## Next
 
