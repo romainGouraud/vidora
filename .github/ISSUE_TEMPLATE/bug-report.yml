@@ -1,0 +1,88 @@
+name: Bug report
+description: Vidora shows an error, saves a broken file, or behaves wrongly.
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A report we can reproduce is a report we can fix.
+        **Privacy:** this issue is public. Do not paste private links (course lessons, links with `token=`, `signature=`, `Policy=` or `Key-Pair-Id=`), cookies, or screenshots showing your account. The site's domain is enough to start; we will ask for more privately if needed.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I am on the latest Vidora version (chrome://extensions, "Update" in developer mode, or reinstall).
+          required: true
+        - label: This is not YouTube and not a DRM-protected service (Netflix, Disney+, Prime Video...). Those are not supported on purpose.
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: Vidora version
+      description: Shown in the About section of Vidora's Settings, or on chrome://extensions.
+      placeholder: "1.0.75"
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Edge
+        - Brave
+        - Opera / Opera GX
+        - Vivaldi
+        - Other Chromium browser
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - ChromeOS
+    validations:
+      required: true
+  - type: input
+    id: site
+    attributes:
+      label: Site (domain only)
+      placeholder: "example.com"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do?
+      description: The steps, in order. Did you press play before downloading? Are you logged in on the site?
+      placeholder: |
+        1. Opened a lesson page and pressed play
+        2. Opened Vidora, picked 1080p, clicked Download
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened?
+      description: The exact message Vidora showed, if any (copy it, or a screenshot of the Vidora card only).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: dropdown
+    id: reported
+    attributes:
+      label: Did you also click "Report a problem" in Vidora?
+      description: That private report sends us the technical details directly, which makes the fix much faster.
+      options:
+        - "Yes"
+        - "No"
+        - I could not find it

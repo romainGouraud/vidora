@@ -1,0 +1,61 @@
+name: Site request
+description: A website where Vidora finds no video, or cannot save it.
+title: "[Site] "
+labels: ["site-request", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vidora already works on most sites through its HLS, DASH and MP4 engines, so a site that fails usually has a specific reason we can often fix.
+        Check the [supported sites list](https://getvidora.com/supported-sites) first: it explains the sites that cannot work and why.
+        **Privacy:** this issue is public. Give the domain, not a private link with tokens.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: The site is not YouTube and the video is not DRM-protected (Netflix, Disney+, Prime Video, Widevine). Those requests are closed.
+          required: true
+        - label: I searched the existing issues for this site and added a thumbs up there instead if it already exists.
+          required: true
+  - type: input
+    id: site
+    attributes:
+      label: Site (domain)
+      placeholder: "example.com"
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: How is the video accessed?
+      options:
+        - Public page, anyone can watch
+        - Free account needed
+        - Paid account or online course
+        - Video embedded on another site
+    validations:
+      required: true
+  - type: dropdown
+    id: behaviour
+    attributes:
+      label: What does Vidora do?
+      options:
+        - Finds no video at all
+        - Finds the video but the download fails
+        - Downloads a file without sound
+        - Downloads the wrong video (ad, preview, trailer)
+        - Downloads a file that does not play
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: public_example
+    attributes:
+      label: A public example page (optional)
+      description: Only if the video is public and the link contains no personal token.
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Vidora's exact message, the player you see (Vimeo, Wistia, Mux, Bunny, JW Player...), whether you pressed play first.

@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question (how do I save a video from...?)
+    url: https://github.com/romainGouraud/vidora/discussions/categories/q-a
+    about: Ask the community and the maintainer in Q&A.
+  - name: Feature idea or vote
+    url: https://github.com/romainGouraud/vidora/discussions/categories/ideas
+    about: Suggest a feature, or add a thumbs up to the ideas you want first.
+  - name: Private support
+    url: https://getvidora.com/support?utm_source=github&utm_medium=issue-chooser
+    about: Prefer not to post publicly? Use "Report a problem" in the extension, or email support@getvidora.com.
+  - name: Security issue
+    url: https://github.com/romainGouraud/vidora/security/advisories/new
+    about: Report a vulnerability privately. Never in a public issue.
