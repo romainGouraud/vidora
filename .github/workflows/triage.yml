@@ -12,6 +12,8 @@ jobs:
         with:
           script: |
             const issue = context.payload.issue;
+            // Maintainer posts (pinned notices, roadmap issues) are not triaged.
+            if (['OWNER', 'MEMBER', 'COLLABORATOR'].includes(issue.author_association)) return;
             const text = `${issue.title}\n${issue.body || ''}`.toLowerCase();
             const { owner, repo } = context.repo;
             const number = issue.number;
