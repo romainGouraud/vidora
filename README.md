@@ -84,6 +84,10 @@ No install needed: [M3U8 tester](https://getvidora.com/tools/m3u8-tester/), [M3U
 
 Command line? [m3u8-doctor](https://github.com/romainGouraud/m3u8-doctor) explains any HLS stream in plain words and prints the ffmpeg command that keeps the sound (open source).
 
+## Founding contributors: Vidora free for life
+
+Tell us what you need. **If your site request, bug report, idea or translation fix ships in a release before the paid plans start, you get Vidora free for life**, with every paid feature. Details in [CONTRIBUTING.md](CONTRIBUTING.md#founding-contributors-vidora-free-for-life), and the list in [CONTRIBUTORS.md](CONTRIBUTORS.md).
+
 ## Help the project
 
 - **Leave a review** on the [Chrome Web Store](https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje/reviews?utm_source=github&utm_medium=readme): it is the single thing that helps Vidora most.

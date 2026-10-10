@@ -2,6 +2,19 @@
 
 Thank you for helping. Vidora's source code is not public, but the community shapes the product in very concrete ways.
 
+## Founding contributors: Vidora free for life
+
+Vidora is free during the launch period. Paid plans will come later, and the people who helped build it will not pay.
+
+**Who qualifies:** anyone whose contribution leads to a change **shipped in a release before the paid plans start**:
+- a site request or a bug report that gets fixed;
+- an idea that gets built;
+- a translation correction that gets merged.
+
+**What you get:** Vidora free for life, with every paid feature, on the GitHub account credited in [CONTRIBUTORS.md](CONTRIBUTORS.md) and in the release notes. When the paid plans start, a founding contributor just writes to support@getvidora.com from the email of their choice, mentioning their GitHub name, to activate it.
+
+**How it is decided:** when a change ships, the issue or discussion that led to it gets the `founding-contributor` label and its author is added to [CONTRIBUTORS.md](CONTRIBUTORS.md). Duplicates count for the first clear report; a 👍 alone does not. YouTube and DRM requests never qualify.
+
 ## 1. Report a site that fails
 
 This is the most useful contribution. Use the [site request form](https://github.com/romainGouraud/vidora/issues/new?template=site-request.yml). A good report has:
