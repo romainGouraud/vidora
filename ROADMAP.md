@@ -7,7 +7,7 @@ What we are working on, what comes next, and what we are exploring. The order fo
 ## In progress
 
 - **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
-- **Microsoft Edge Add-ons listing**: ready, published once Microsoft has verified the developer account.
+- **Microsoft Edge Add-ons listing**: developer account verified, version 1.0.77 submitted to Microsoft for review (October 12, 2026).
 
 ## Next
 
@@ -22,6 +22,8 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.77 (October 12, 2026)**: a stream whose server briefly returns errors (502, 503) no longer fails the whole download; rating and sharing links open the store you installed from.
 
 **1.0.76 (October 11, 2026)**: long downloads that survive interruptions and slow servers; quality lists loading on more sites; placeholder files no longer saved as a success; better course platform support; "Retry save" when the disk is full; capture while playing from the button on the video.
 
