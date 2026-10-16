@@ -2,7 +2,7 @@
 
 What we are working on, what comes next, and what we are exploring. The order follows your votes: add a 👍 to [Ideas](https://github.com/romainGouraud/vidora/discussions/categories/ideas) and to [site requests](https://github.com/romainGouraud/vidora/issues?q=is%3Aopen+label%3Asite-request+sort%3Areactions-%2B1-desc).
 
-*Last updated: October 15, 2026.*
+*Last updated: October 16, 2026.*
 
 ## In progress
 
@@ -13,17 +13,19 @@ What we are working on, what comes next, and what we are exploring. The order fo
 
 - **More course platforms**, starting with Teachable, Kajabi and Patreon, with the same "whole course" card as on Skool where the platform allows it.
 - **Online tools in more languages.**
-- **Resume after a browser crash for every stream type**: 1.0.78 resumes streams saved piece by piece; the most common stream format (MPEG-TS) comes next.
+- **Resume after a browser crash for streams with a separate audio track in MPEG-TS** (1.0.79 covers single-track MPEG-TS and fMP4 streams).
 
 ## Exploring
 
 - **Firefox version.**
-- **Google Drive videos** shared with you (download the original file, with sound).
+- **Instagram videos** (separate picture and sound tracks to pair reliably).
 - **Subscriber-only Twitch VODs** (public clips and VODs already work).
 
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.79 (October 16, 2026)**: Google Drive videos downloaded as the original file, with sound; resume after a browser crash for the most common stream format (MPEG-TS), with a check that the server still sends the same video; steadier Vimeo messages; save retry also without notifications.
 
 **1.0.78 (October 15, 2026)**: downloads continue on their own after a quick browser restart; faster Skool lessons; quality choice on more servers; a clear message instead of silence on unreadable Vimeo videos; one automatic retry when Chrome briefly fails to save a finished file.
 
