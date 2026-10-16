@@ -6,7 +6,6 @@ What we are working on, what comes next, and what we are exploring. The order fo
 
 ## In progress
 
-- **Instagram videos**: reels, posts and carousels with sound, at the best quality available, tested on real public posts before release.
 - **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
 - **Microsoft Edge Add-ons listing**: developer account verified, version 1.0.77 submitted to Microsoft for review (October 12, 2026).
 
@@ -24,6 +23,8 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.80 (October 16, 2026)**: Instagram reels, video posts and carousels with sound, at the best quality available; "Audio only" always saves a real .m4a file; Vimeo videos opened a while ago no longer fail on an expired link; more Vimeo videos found on course platforms; an easier-to-read review request.
 
 **1.0.79 (October 16, 2026)**: Google Drive videos downloaded as the original file, with sound; resume after a browser crash for the most common stream format (MPEG-TS), with a check that the server still sends the same video; steadier Vimeo messages; save retry also without notifications.
 
