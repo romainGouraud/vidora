@@ -6,12 +6,13 @@ What we are working on, what comes next, and what we are exploring. The order fo
 
 ## In progress
 
+- **Teachable courses**: download a lesson with its sound and its real title, and the whole course in one click (organized by module), only for the lessons you can open. Kajabi videos get their real title and a single card. Tested on real public lessons, in the next update.
 - **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
 - **Microsoft Edge Add-ons listing**: developer account verified, version 1.0.77 submitted to Microsoft for review (October 12, 2026).
 
 ## Next
 
-- **More course platforms**, starting with Teachable, Kajabi and Patreon, with the same "whole course" card as on Skool where the platform allows it.
+- **More course platforms**: Kajabi and Patreon next, with the same "whole course" card as on Skool and Teachable where the platform allows it.
 - **Online tools in more languages.**
 - **Resume after a browser crash for streams with a separate audio track in MPEG-TS** (1.0.79 covers single-track MPEG-TS and fMP4 streams).
 
