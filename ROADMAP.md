@@ -6,6 +6,7 @@ What we are working on, what comes next, and what we are exploring. The order fo
 
 ## In progress
 
+- **Instagram videos**: reels, posts and carousels with sound, at the best quality available, tested on real public posts before release.
 - **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
 - **Microsoft Edge Add-ons listing**: developer account verified, version 1.0.77 submitted to Microsoft for review (October 12, 2026).
 
@@ -18,7 +19,6 @@ What we are working on, what comes next, and what we are exploring. The order fo
 ## Exploring
 
 - **Firefox version.**
-- **Instagram videos** (separate picture and sound tracks to pair reliably).
 - **Subscriber-only Twitch VODs** (public clips and VODs already work).
 
 Ideas move from Exploring to Next when they get votes and are technically possible.
