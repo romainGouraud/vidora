@@ -2,11 +2,11 @@
 
 What we are working on, what comes next, and what we are exploring. The order follows your votes: add a 👍 to [Ideas](https://github.com/romainGouraud/vidora/discussions/categories/ideas) and to [site requests](https://github.com/romainGouraud/vidora/issues?q=is%3Aopen+label%3Asite-request+sort%3Areactions-%2B1-desc).
 
-*Last updated: October 16, 2026.*
+*Last updated: October 17, 2026.*
 
 ## In progress
 
-- **Teachable courses**: download a lesson with its sound and its real title, and the whole course in one click (organized by module), only for the lessons you can open. Kajabi videos get their real title and a single card. Tested on real public lessons, in the next update.
+- **Courses whose lessons host their video elsewhere**: Skool lessons with a Vimeo, Loom or Wistia video will be included in the whole-course download (YouTube stays excluded).
 - **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
 - **Microsoft Edge Add-ons listing**: developer account verified, version 1.0.77 submitted to Microsoft for review (October 12, 2026).
 
@@ -24,6 +24,8 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.81 (October 17, 2026)**: Teachable courses (a lesson with its sound and real title, the whole course in one click); Kajabi and Wistia videos with their real title and a single card; sound kept on videos offered in several languages; a clear message when a site's video can only be read by its own player.
 
 **1.0.80 (October 16, 2026)**: Instagram reels, video posts and carousels with sound, at the best quality available; "Audio only" always saves a real .m4a file; Vimeo videos opened a while ago no longer fail on an expired link; more Vimeo videos found on course platforms; an easier-to-read review request.
 
