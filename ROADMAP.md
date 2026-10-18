@@ -2,11 +2,11 @@
 
 What we are working on, what comes next, and what we are exploring. The order follows your votes: add a 👍 to [Ideas](https://github.com/romainGouraud/vidora/discussions/categories/ideas) and to [site requests](https://github.com/romainGouraud/vidora/issues?q=is%3Aopen+label%3Asite-request+sort%3Areactions-%2B1-desc).
 
-*Last updated: October 17, 2026.*
+*Last updated: October 18, 2026.*
 
 ## In progress
 
-- **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
+- **Fewer failed downloads, from real failures**: each release starts from the anonymous error reports (no addresses, no file names) and fixes the most frequent causes first.
 - **Microsoft Edge Add-ons listing**: developer account verified, version 1.0.77 submitted to Microsoft for review (October 12, 2026).
 
 ## Next
@@ -23,6 +23,10 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.83 (October 18, 2026)**: clear Vimeo messages, in your language, when Chrome's site access setting or an anti-robot check blocks the player; one card per Bunny Stream video; no double download when Chrome stops the extension mid-transfer ("Resume" is offered instead); fixes for streams refused with the page address, servers refusing bursts, lists of lists, players added late and expired signed links.
+
+**Online tools (October 18, 2026)**: [MKV to MP4](https://getvidora.com/tools/mkv-to-mp4-converter/) and [video to GIF](https://getvidora.com/tools/video-to-gif/), free, in your browser, nothing uploaded.
 
 **1.0.82 (October 18, 2026)**: Skool lessons whose video is on Vimeo, Loom or Wistia are now part of the whole-course download; Bunny Stream "play" links found and downloaded; torrent links no longer shown as videos; a clear state instead of endless retries when Chrome blocks Vidora on the Vimeo player.
 
