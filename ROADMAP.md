@@ -6,7 +6,6 @@ What we are working on, what comes next, and what we are exploring. The order fo
 
 ## In progress
 
-- **Courses whose lessons host their video elsewhere**: Skool lessons with a Vimeo, Loom or Wistia video will be included in the whole-course download (YouTube stays excluded).
 - **Two new free online tools**: MKV to MP4, and video to GIF, both working in your browser without upload.
 - **Microsoft Edge Add-ons listing**: developer account verified, version 1.0.77 submitted to Microsoft for review (October 12, 2026).
 
@@ -24,6 +23,8 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.82 (October 18, 2026)**: Skool lessons whose video is on Vimeo, Loom or Wistia are now part of the whole-course download; Bunny Stream "play" links found and downloaded; torrent links no longer shown as videos; a clear state instead of endless retries when Chrome blocks Vidora on the Vimeo player.
 
 **1.0.81 (October 17, 2026)**: Teachable courses (a lesson with its sound and real title, the whole course in one click); Kajabi and Wistia videos with their real title and a single card; sound kept on videos offered in several languages; a clear message when a site's video can only be read by its own player.
 
