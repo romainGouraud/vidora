@@ -2,15 +2,17 @@
 
 What we are working on, what comes next, and what we are exploring. The order follows your votes: add a 👍 to [Ideas](https://github.com/romainGouraud/vidora/discussions/categories/ideas) and to [site requests](https://github.com/romainGouraud/vidora/issues?q=is%3Aopen+label%3Asite-request+sort%3Areactions-%2B1-desc).
 
-*Last updated: October 18, 2026.*
+*Last updated: October 20, 2026.*
 
 ## In progress
 
 - **Fewer failed downloads, from real failures**: each release starts from the anonymous error reports (no addresses, no file names) and fixes the most frequent causes first.
-- **Microsoft Edge Add-ons listing**: developer account verified, version 1.0.77 submitted to Microsoft for review (October 12, 2026).
+- **Microsoft Edge Add-ons**: the listing is public (1.0.77); version 1.0.84 submitted to Microsoft on October 20, 2026.
+- **Measuring what matters, privately**: a daily anonymous signal (no identifier, no address) to count active devices and check each fix, with a screen in Settings that shows exactly what is sent.
 
 ## Next
 
+- **Resume after a crash for direct downloads**: large single files restart where they stopped instead of from zero.
 - **More course platforms**: Kajabi and Patreon next, with the same "whole course" card as on Skool and Teachable where the platform allows it.
 - **Online tools in more languages.**
 - **Resume after a browser crash for streams with a separate audio track in MPEG-TS** (1.0.79 covers single-track MPEG-TS and fMP4 streams).
@@ -23,6 +25,8 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.84 (submitted October 20, 2026)**: faster large downloads over several connections; complete subtitles (HLS, DASH, Vimeo) with your preferred language and on-device translation; the side panel becomes a download manager (search, filters, "Already downloaded" badge, show in folder); the video you are watching comes first; rename in the card; "Capture" on the in-page button; title, date and thumbnail written into the MP4; keyboard and screen reader accessibility; a "What Vidora sends" screen; better detection of players that load videos in a background worker; multi-part DASH videos assembled into one file; Hotmart lessons keep downloading when their token expires.
 
 **1.0.83 (October 18, 2026)**: clear Vimeo messages, in your language, when Chrome's site access setting or an anti-robot check blocks the player; one card per Bunny Stream video; no double download when Chrome stops the extension mid-transfer ("Resume" is offered instead); fixes for streams refused with the page address, servers refusing bursts, lists of lists, players added late and expired signed links.
 
