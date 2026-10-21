@@ -10,7 +10,17 @@
 </p>
 
 <p align="center">
+  <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje?utm_source=github&utm_medium=readme"><img src="https://img.shields.io/chrome-web-store/v/pjnnoldljndmfifpnfmbpbehklaaboje?label=chrome%20web%20store" alt="Chrome Web Store version"></a>
+  <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje?utm_source=github&utm_medium=readme"><img src="https://img.shields.io/chrome-web-store/users/pjnnoldljndmfifpnfmbpbehklaaboje" alt="Chrome Web Store users"></a>
+  <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje/reviews?utm_source=github&utm_medium=readme"><img src="https://img.shields.io/chrome-web-store/rating/pjnnoldljndmfifpnfmbpbehklaaboje" alt="Chrome Web Store rating"></a>
+  <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje/reviews?utm_source=github&utm_medium=readme"><img src="https://img.shields.io/chrome-web-store/rating-count/pjnnoldljndmfifpnfmbpbehklaaboje?label=reviews" alt="Number of Chrome Web Store reviews"></a>
+  <a href="https://microsoftedge.microsoft.com/addons/detail/lmaadmjhjpdkalajdadnhpabfapepaek"><img src="https://img.shields.io/badge/dynamic/json?label=edge%20add-ons&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Flmaadmjhjpdkalajdadnhpabfapepaek" alt="Microsoft Edge Add-ons version"></a>
+</p>
+
+<p align="center">
   <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje?utm_source=github&utm_medium=readme"><strong>Add to Chrome, free</strong></a>
+  ·
+  <a href="https://microsoftedge.microsoft.com/addons/detail/lmaadmjhjpdkalajdadnhpabfapepaek">Add to Edge</a>
   ·
   <a href="https://github.com/romainGouraud/vidora/discussions">Community</a>
   ·
@@ -90,7 +100,7 @@ Tell us what you need. **If your site request, bug report, idea or translation f
 
 ## Help the project
 
-- **Leave a review** on the [Chrome Web Store](https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje/reviews?utm_source=github&utm_medium=readme): it is the single thing that helps Vidora most.
+- **Leave a review**: has Vidora been useful to you, or not? A review on the store helps other people decide. Open the review form on the [Chrome Web Store](https://chromewebstore.google.com/detail/pjnnoldljndmfifpnfmbpbehklaaboje/reviews/my-review?utm_source=github) or on [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/lmaadmjhjpdkalajdadnhpabfapepaek); the two steps are explained on [getvidora.com/rate](https://getvidora.com/rate/?utm_source=github&utm_medium=readme). Nothing is given in exchange, and something that does not work is best [reported here](https://github.com/romainGouraud/vidora/issues/new/choose) so it can be fixed.
 - **Star this repository** so more people find it.
 - **Report the sites that fail**: every report with clear steps is reproduced, and fixed whenever it is technically possible and not DRM.
 - **Improve a translation**: see [CONTRIBUTING.md](CONTRIBUTING.md).
