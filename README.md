@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje?utm_source=github&utm_medium=readme"><img src="https://img.shields.io/chrome-web-store/v/pjnnoldljndmfifpnfmbpbehklaaboje?label=chrome%20web%20store" alt="Chrome Web Store version"></a>
-  <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje?utm_source=github&utm_medium=readme"><img src="https://img.shields.io/chrome-web-store/users/pjnnoldljndmfifpnfmbpbehklaaboje" alt="Chrome Web Store users"></a>
+  <!-- Badge utilisateurs retire le 24-10-2026 : le Chrome Web Store masque le compteur de la fiche (shields affichait "not found"). A remettre quand la fiche l affiche de nouveau. -->
   <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje/reviews?utm_source=github&utm_medium=readme"><img src="https://img.shields.io/chrome-web-store/rating/pjnnoldljndmfifpnfmbpbehklaaboje" alt="Chrome Web Store rating"></a>
   <a href="https://chromewebstore.google.com/detail/vidora-video-downloader/pjnnoldljndmfifpnfmbpbehklaaboje/reviews?utm_source=github&utm_medium=readme"><img src="https://img.shields.io/chrome-web-store/rating-count/pjnnoldljndmfifpnfmbpbehklaaboje?label=reviews" alt="Number of Chrome Web Store reviews"></a>
   <a href="https://microsoftedge.microsoft.com/addons/detail/lmaadmjhjpdkalajdadnhpabfapepaek"><img src="https://img.shields.io/badge/dynamic/json?label=edge%20add-ons&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Flmaadmjhjpdkalajdadnhpabfapepaek" alt="Microsoft Edge Add-ons version"></a>
