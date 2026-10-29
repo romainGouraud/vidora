@@ -2,12 +2,12 @@
 
 What we are working on, what comes next, and what we are exploring. The order follows your votes: add a 👍 to [Ideas](https://github.com/romainGouraud/vidora/discussions/categories/ideas) and to [site requests](https://github.com/romainGouraud/vidora/issues?q=is%3Aopen+label%3Asite-request+sort%3Areactions-%2B1-desc).
 
-*Last updated: October 21, 2026.*
+*Last updated: October 29, 2026.*
 
 ## In progress
 
 - **Fewer failed downloads, from real failures**: each release starts from the anonymous error reports (no addresses, no file names) and fixes the most frequent causes first.
-- **Microsoft Edge Add-ons**: the listing is public (1.0.77); version 1.0.84 is in review at Microsoft, and 1.0.85 is uploaded and will follow right after.
+- **Microsoft Edge Add-ons**: the listing is public with version 1.0.84; version 1.0.86 is in review at Microsoft.
 - **Measuring what matters, privately**: a daily anonymous signal (no identifier, no address) to count active devices and check each fix, with a screen in Settings that shows exactly what is sent.
 
 ## Next
@@ -26,7 +26,9 @@ Ideas move from Exploring to Next when they get votes and are technically possib
 
 ## Recently shipped
 
-**1.0.85 (submitted October 21, 2026)**: public broadcasters (Arte, ARD Mediathek, SVT Play, Yle Areena) with whole series; on-device transcription and chapter suggestions with Chrome's built-in AI; a keyboard shortcut for the side panel; videos found again when you come back to a tab; detection code loaded only where a video can play (about four times lighter on pages full of ad frames); rate limits handled per server; every assembled video checked before delivery; one memory budget for large downloads; security hardening (no requests to your local network from a page's stream list, sender checks on page messages).
+**1.0.86 (October 25, 2026)**: "Resume" offered instead of a failure when you close or restart Chrome during a direct download; fresh links picked up on streams whose signed links expire; more captures and recordings that end with a video (in-page button, late video buffers, player source swaps); clear messages for network problems, deleted Bunny and Twitch videos, subscriber-only Twitch VODs, Telegram and MEGA; two-track WebM and more DASH streams assembled; Vimeo playlist links refreshed.
+
+**1.0.85 (October 21, 2026)**: public broadcasters (Arte, ARD Mediathek, SVT Play, Yle Areena) with whole series; on-device transcription and chapter suggestions with Chrome's built-in AI; a keyboard shortcut for the side panel; videos found again when you come back to a tab; detection code loaded only where a video can play (about four times lighter on pages full of ad frames); rate limits handled per server; every assembled video checked before delivery; one memory budget for large downloads; security hardening (no requests to your local network from a page's stream list, sender checks on page messages).
 
 **1.0.84 (submitted October 20, 2026)**: faster large downloads over several connections; complete subtitles (HLS, DASH, Vimeo) with your preferred language and on-device translation; the side panel becomes a download manager (search, filters, "Already downloaded" badge, show in folder); the video you are watching comes first; rename in the card; "Capture" on the in-page button; title, date and thumbnail written into the MP4; keyboard and screen reader accessibility; a "What Vidora sends" screen; better detection of players that load videos in a background worker; multi-part DASH videos assembled into one file; Hotmart lessons keep downloading when their token expires.
 
