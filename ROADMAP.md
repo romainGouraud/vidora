@@ -2,12 +2,12 @@
 
 What we are working on, what comes next, and what we are exploring. The order follows your votes: add a 👍 to [Ideas](https://github.com/romainGouraud/vidora/discussions/categories/ideas) and to [site requests](https://github.com/romainGouraud/vidora/issues?q=is%3Aopen+label%3Asite-request+sort%3Areactions-%2B1-desc).
 
-*Last updated: October 29, 2026.*
+*Last updated: November 8, 2026.*
 
 ## In progress
 
 - **Fewer failed downloads, from real failures**: each release starts from the anonymous error reports (no addresses, no file names) and fixes the most frequent causes first.
-- **Microsoft Edge Add-ons**: the listing is public with version 1.0.84; version 1.0.86 is in review at Microsoft.
+- **Microsoft Edge Add-ons**: the listing is public with version 1.0.86; version 1.0.87 is in review at Microsoft.
 - **Measuring what matters, privately**: a daily anonymous signal (no identifier, no address) to count active devices and check each fix, with a screen in Settings that shows exactly what is sent.
 
 ## Next
@@ -25,6 +25,8 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.87 (November 4, 2026)**: downloads through the page when a website firewall refuses a direct download; slower, paused and retried downloads on servers that limit connections, remembered per server; stuck and cut-short segments handled; fresh links in more cases; the in-page button keeps its target; Vimeo pages and late players found more often; a "Resume" banner in the popup; clear messages for MEGA, closed tabs, session-only streams and expired links.
 
 **1.0.86 (October 25, 2026)**: "Resume" offered instead of a failure when you close or restart Chrome during a direct download; fresh links picked up on streams whose signed links expire; more captures and recordings that end with a video (in-page button, late video buffers, player source swaps); clear messages for network problems, deleted Bunny and Twitch videos, subscriber-only Twitch VODs, Telegram and MEGA; two-track WebM and more DASH streams assembled; Vimeo playlist links refreshed.
 
