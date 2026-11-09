@@ -7,7 +7,7 @@ What we are working on, what comes next, and what we are exploring. The order fo
 ## In progress
 
 - **Fewer failed downloads, from real failures**: each release starts from the anonymous error reports (no addresses, no file names) and fixes the most frequent causes first.
-- **Microsoft Edge Add-ons**: the listing is public with version 1.0.86; version 1.0.87 is in review at Microsoft.
+- **Microsoft Edge Add-ons**: the listing is public with version 1.0.87, the same as on the Chrome Web Store.
 - **Measuring what matters, privately**: a daily anonymous signal (no identifier, no address) to count active devices and check each fix, with a screen in Settings that shows exactly what is sent.
 
 ## Next
