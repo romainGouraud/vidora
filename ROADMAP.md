@@ -2,12 +2,13 @@
 
 What we are working on, what comes next, and what we are exploring. The order follows your votes: add a 👍 to [Ideas](https://github.com/romainGouraud/vidora/discussions/categories/ideas) and to [site requests](https://github.com/romainGouraud/vidora/issues?q=is%3Aopen+label%3Asite-request+sort%3Areactions-%2B1-desc).
 
-*Last updated: November 8, 2026.*
+*Last updated: November 11, 2026.*
 
 ## In progress
 
 - **Fewer failed downloads, from real failures**: each release starts from the anonymous error reports (no addresses, no file names) and fixes the most frequent causes first.
-- **Microsoft Edge Add-ons**: the listing is public with version 1.0.87, the same as on the Chrome Web Store.
+- **Microsoft Edge Add-ons**: version 1.0.88 was submitted on November 11, 2026 and is under review; 1.0.87 stays available meanwhile.
+- **One video, one card**: a single card per video in the popup, with the quality choice and audio only in the same place, and fewer buttons.
 - **Measuring what matters, privately**: a daily anonymous signal (no identifier, no address) to count active devices and check each fix, with a screen in Settings that shows exactly what is sent.
 
 ## Next
@@ -25,6 +26,8 @@ What we are working on, what comes next, and what we are exploring. The order fo
 Ideas move from Exploring to Next when they get votes and are technically possible.
 
 ## Recently shipped
+
+**1.0.88 (November 11, 2026)**: large single-file videos (VK, OK.ru, Dzen) fetched in pieces to disk; stalled downloads detected in seconds instead of hanging; automatic resume of streaming downloads within two hours after a restart; fresh links picked up while you watch; clear messages instead of endless retries for downloads that cannot succeed; private browsing writes no page address to disk; many interface fixes.
 
 **1.0.87 (November 4, 2026)**: downloads through the page when a website firewall refuses a direct download; slower, paused and retried downloads on servers that limit connections, remembered per server; stuck and cut-short segments handled; fresh links in more cases; the in-page button keeps its target; Vimeo pages and late players found more often; a "Resume" banner in the popup; clear messages for MEGA, closed tabs, session-only streams and expired links.
 
